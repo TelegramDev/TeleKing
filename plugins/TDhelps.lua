@@ -1,4 +1,4 @@
-qlocal function run(msg, matches)
+local function run(msg, matches)
 local telediamond = [[
 ➖➖➖➖➖➖➖
 ✔️لیست دستورات مدیریتی
@@ -518,7 +518,7 @@ local telediamond6 = [[
 مثلا وقتی لینک قفل باشد درصورتی که کاربر لینک ارسال کند هم لینک و هم کاربر در صورت قفل بودن سخت گیری حذف خواهند شد.
 ]]
 local telediamond7 = [[
-Bot Commands :
+دستورات فارسی :
 
 🎗شما میتوانید با این دستورات ربات را در گروه خود روشن و خاموش کنید.
 💢#bot off
@@ -542,7 +542,6 @@ Bot Commands :
 🎗》#funhelp
 ☆دستورات مدیریتی
 🎗》#modhelp
-
 
 ]]
     if matches[1] == 'راهنمای مدیریتی' and is_momod(msg) then
